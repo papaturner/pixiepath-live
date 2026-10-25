@@ -1,0 +1,1793 @@
+{
+ "exportedAt": "2026-10-25",
+ "parks": {
+  "mk": {
+   "name": "Magic Kingdom",
+   "venues": [
+    {
+     "name": "Gaston's Tavern",
+     "area": "Fantasyland",
+     "drinks": [
+      {
+       "name": "LeFou's Brew",
+       "type": "cocktail",
+       "desc": "Frozen apple juice with toasted marshmallow & mango foam",
+       "estimate": "$6-8"
+      },
+      {
+       "name": "Cinnamon Roll",
+       "type": "beer",
+       "desc": "Pair with a cold brew — no alcohol here, but a must-stop!",
+       "estimate": "$6-9"
+      },
+      {
+       "name": "Frozen Apple Juice",
+       "type": "cocktail",
+       "desc": "Refreshing frozen apple slush",
+       "estimate": "$5-7"
+      }
+     ]
+    },
+    {
+     "name": "Be Our Guest Restaurant",
+     "area": "Fantasyland",
+     "drinks": [
+      {
+       "name": "The Master's Cupcake",
+       "type": "cocktail",
+       "desc": "Signature cocktail with grey goose, chambord & cream",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "The Galette",
+       "type": "wine",
+       "desc": "French wine selection — Chardonnay, Cabernet & Rosé",
+       "estimate": "$12-16"
+      },
+      {
+       "name": "Enchanted Rose Cocktail",
+       "type": "cocktail",
+       "desc": "Vodka, St. Germain, rose water with a magical shimmer",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "French Draft Beer",
+       "type": "beer",
+       "desc": "Kronenbourg 1664 on draft",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Skipper Canteen",
+     "area": "Adventureland",
+     "drinks": [
+      {
+       "name": "Schweitzer Slush",
+       "type": "cocktail",
+       "desc": "Frozen cocktail with dark rum, falernum & tropical juices",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Jungle Julep",
+       "type": "cocktail",
+       "desc": "Bourbon, mint, pineapple & lime — jungle style",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Castaway Crush",
+       "type": "cocktail",
+       "desc": "Rum punch with passion fruit and coconut cream",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Skipper Sipper",
+       "type": "spirits",
+       "desc": "Whiskey forward cocktail with ginger and citrus",
+       "estimate": "$15-18"
+      }
+     ]
+    },
+    {
+     "name": "Liberty Tree Tavern",
+     "area": "Liberty Square",
+     "drinks": [
+      {
+       "name": "Colonial Lager",
+       "type": "beer",
+       "desc": "Samuel Adams Boston Lager on tap",
+       "estimate": "$10-12"
+      },
+      {
+       "name": "Liberty Punch",
+       "type": "cocktail",
+       "desc": "Rum, blue curaçao & pineapple juice layered",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Chardonnay",
+       "type": "wine",
+       "desc": "Selection of American wines",
+       "estimate": "$10-14"
+      }
+     ]
+    },
+    {
+     "name": "Aloha Isle / Trader Sam's",
+     "area": "Adventureland",
+     "drinks": [
+      {
+       "name": "Dole Whip Float",
+       "type": "cocktail",
+       "desc": "Classic Dole Whip — grab rum at Trader Sam's nearby",
+       "estimate": "$6-8"
+      },
+      {
+       "name": "Spiked Dole Whip",
+       "type": "cocktail",
+       "desc": "Dole Whip with Parrot Bay coconut rum (at select locations)",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Cosmic Ray's Starlight Cafe",
+     "area": "Tomorrowland",
+     "drinks": [
+      {
+       "name": "Draft Beer Selection",
+       "type": "beer",
+       "desc": "Rotating taps including Bud Light, Coors, and seasonal options",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Cosmic Cocktail",
+       "type": "cocktail",
+       "desc": "Specialty frozen cocktail, ask for the daily special",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Cinderella's Royal Table",
+     "area": "Cinderella Castle",
+     "drinks": [
+      {
+       "name": "Castle Cabernet",
+       "type": "wine",
+       "desc": "A bold cabernet sauvignon fit for royalty inside the castle",
+       "estimate": "$14-18"
+      },
+      {
+       "name": "Sparkling Wine Toast",
+       "type": "wine",
+       "desc": "Chilled sparkling wine to toast your royal feast",
+       "estimate": "$13-17"
+      },
+      {
+       "name": "Fairytale Punch",
+       "type": "cocktail",
+       "desc": "Vodka, tropical fruit and a splash of sparkle",
+       "estimate": "$15-19"
+      },
+      {
+       "name": "Royal Chardonnay",
+       "type": "wine",
+       "desc": "Buttery American chardonnay by the glass",
+       "estimate": "$12-16"
+      }
+     ]
+    },
+    {
+     "name": "Tony's Town Square Restaurant",
+     "area": "Main Street, U.S.A.",
+     "drinks": [
+      {
+       "name": "Bella Notte Spritz",
+       "type": "cocktail",
+       "desc": "Aperol, prosecco and orange over ice — a Lady & the Tramp toast",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Chianti",
+       "type": "wine",
+       "desc": "Classic Tuscan red — perfect with spaghetti and meatballs",
+       "estimate": "$11-15"
+      },
+      {
+       "name": "Peroni",
+       "type": "beer",
+       "desc": "Crisp Italian lager on tap",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "The Diamond Horseshoe",
+     "area": "Frontierland",
+     "drinks": [
+      {
+       "name": "Frontier Lager",
+       "type": "beer",
+       "desc": "Cold western-style lager for a saloon toast",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Horseshoe Punch",
+       "type": "cocktail",
+       "desc": "Bourbon, lemonade and berries — a Frontierland favorite",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Prospector's Wine",
+       "type": "wine",
+       "desc": "House red or white by the glass",
+       "estimate": "$10-14"
+      }
+     ]
+    }
+   ]
+  },
+  "epcot": {
+   "name": "EPCOT",
+   "venues": [
+    {
+     "name": "La Cava del Tequila",
+     "area": "Mexico Pavilion",
+     "drinks": [
+      {
+       "name": "Avocado Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, melon liqueur, fresh avocado & lime — iconic!",
+       "estimate": "$18-22"
+      },
+      {
+       "name": "Blood Orange Margarita",
+       "type": "cocktail",
+       "desc": "Patron Silver, blood orange, lime & agave nectar",
+       "estimate": "$17-21"
+      },
+      {
+       "name": "Tequila Flight",
+       "type": "spirits",
+       "desc": "Three premium tequilas — blanco, reposado, añejo",
+       "estimate": "$25-35"
+      },
+      {
+       "name": "Mexican Craft Beer",
+       "type": "beer",
+       "desc": "Modelo Especial, Dos Equis, or seasonal Mexican brew",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Kringla Bakeri Og Kafe",
+     "area": "Norway Pavilion",
+     "drinks": [
+      {
+       "name": "Viking Coffee",
+       "type": "spirits",
+       "desc": "Kamora coffee liqueur and Baileys with whipped cream",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Linie Aquavit",
+       "type": "spirits",
+       "desc": "Traditional Norwegian spirit — caraway forward",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "Berry Cream Puff Ale",
+       "type": "beer",
+       "desc": "Sweet Norwegian-style craft beer",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Joy of Tea",
+     "area": "China Pavilion",
+     "drinks": [
+      {
+       "name": "Tipsy Ducks in Love",
+       "type": "cocktail",
+       "desc": "Coffee, chocolate, bourbon & cream — a crowd favorite!",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Kung Fu Punch",
+       "type": "cocktail",
+       "desc": "Vodka, triple sec, mango & pineapple juice, soda",
+       "estimate": "$11-14"
+      },
+      {
+       "name": "Jasmine Draft Beer",
+       "type": "beer",
+       "desc": "Lucky Buddha or Tsingtao lager",
+       "estimate": "$8-11"
+      }
+     ]
+    },
+    {
+     "name": "Biergarten Restaurant",
+     "area": "Germany Pavilion",
+     "drinks": [
+      {
+       "name": "Schöfferhofer Grapefruit",
+       "type": "beer",
+       "desc": "Hefeweizen blended with sparkling grapefruit — refreshing!",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "Beer Flight",
+       "type": "beer",
+       "desc": "Four German beers — pilsner, hefeweizen, dunkel & seasonal",
+       "estimate": "$14-18"
+      },
+      {
+       "name": "Riesling Wine",
+       "type": "wine",
+       "desc": "German Riesling — crisp, semi-sweet perfection",
+       "estimate": "$10-14"
+      },
+      {
+       "name": "Jägermeister Shot",
+       "type": "spirits",
+       "desc": "Classic herbal digestif — prost!",
+       "estimate": "$8-10"
+      }
+     ]
+    },
+    {
+     "name": "Tutto Gusto Wine Cellar",
+     "area": "Italy Pavilion",
+     "drinks": [
+      {
+       "name": "Prosecco",
+       "type": "wine",
+       "desc": "Sparkling Italian Prosecco, light and bubbly",
+       "estimate": "$11-14"
+      },
+      {
+       "name": "Chianti Classico",
+       "type": "wine",
+       "desc": "Tuscan red wine — rich and full-bodied",
+       "estimate": "$12-16"
+      },
+      {
+       "name": "Limoncello",
+       "type": "spirits",
+       "desc": "Chilled Italian lemon liqueur — sweet and tangy",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Italian Beer",
+       "type": "beer",
+       "desc": "Peroni Nastro Azzurro or Moretti",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Fife & Drum Tavern",
+     "area": "American Adventure",
+     "drinks": [
+      {
+       "name": "Frozen American Dream",
+       "type": "cocktail",
+       "desc": "Frozen cocktail layered red, white & blue",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Sam Adams Seasonal",
+       "type": "beer",
+       "desc": "Rotating Sam Adams selection on tap",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "American Craft Beer Flight",
+       "type": "beer",
+       "desc": "Four American craft beers",
+       "estimate": "$13-16"
+      }
+     ]
+    },
+    {
+     "name": "Kabuki Cafe",
+     "area": "Japan Pavilion",
+     "drinks": [
+      {
+       "name": "Sake Flight",
+       "type": "spirits",
+       "desc": "Three premium Japanese sakes — junmai, ginjo, daiginjo",
+       "estimate": "$14-20"
+      },
+      {
+       "name": "Plum Wine",
+       "type": "wine",
+       "desc": "Sweet Japanese umeshu plum wine, served chilled",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Kirin Ichiban",
+       "type": "beer",
+       "desc": "Premium Japanese lager on draft",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Kakigori with Sake",
+       "type": "cocktail",
+       "desc": "Shaved ice drizzled with sake — only in Japan!",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Spice Road Table",
+     "area": "Morocco Pavilion",
+     "drinks": [
+      {
+       "name": "Moroccan Sangria",
+       "type": "cocktail",
+       "desc": "Red wine, pomegranate, citrus & warm spices",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Desert Rose",
+       "type": "cocktail",
+       "desc": "Vodka, Aperol, grapefruit & rose water",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Casablanca Beer",
+       "type": "beer",
+       "desc": "Moroccan Casablanca lager",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Mint Tea Cocktail",
+       "type": "cocktail",
+       "desc": "Traditional mint tea spiked with vodka",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Les Vins des Chefs de France",
+     "area": "France Pavilion",
+     "drinks": [
+      {
+       "name": "Grand Marnier Slush",
+       "type": "cocktail",
+       "desc": "Frozen Grand Marnier & grey goose — legendary EPCOT drink!",
+       "estimate": "$14-18"
+      },
+      {
+       "name": "French Rosé",
+       "type": "wine",
+       "desc": "Provençal Rosé — perfect for the promenade",
+       "estimate": "$11-15"
+      },
+      {
+       "name": "Champagne",
+       "type": "wine",
+       "desc": "French sparkling champagne by the glass",
+       "estimate": "$14-20"
+      },
+      {
+       "name": "Kronenbourg 1664",
+       "type": "beer",
+       "desc": "Classic French lager",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Rose & Crown Pub",
+     "area": "United Kingdom Pavilion",
+     "drinks": [
+      {
+       "name": "Pear Cider",
+       "type": "beer",
+       "desc": "Strongbow or Magners pear cider on draft",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "Bass Ale",
+       "type": "beer",
+       "desc": "English pale ale — the pub classic",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "Welsh Dragon",
+       "type": "cocktail",
+       "desc": "Peach schnapps, melon, cream, with a fiery kick",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Guinness Stout",
+       "type": "beer",
+       "desc": "Creamy Irish dry stout on nitro tap",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Trading Post",
+     "area": "Canada Pavilion",
+     "drinks": [
+      {
+       "name": "Canadian Whiskey",
+       "type": "spirits",
+       "desc": "Crown Royal or Canadian Club on the rocks",
+       "estimate": "$10-14"
+      },
+      {
+       "name": "Ice Wine",
+       "type": "wine",
+       "desc": "Sweet Canadian ice wine — dessert in a glass",
+       "estimate": "$12-18"
+      },
+      {
+       "name": "Moosehead Lager",
+       "type": "beer",
+       "desc": "Canadian lager — crisp and clean",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Maple Popcorn & Whiskey",
+       "type": "spirits",
+       "desc": "Pair maple popcorn with a whiskey flight",
+       "estimate": "$15-20"
+      }
+     ]
+    },
+    {
+     "name": "Choza de Margarita",
+     "area": "Mexico Pavilion",
+     "drinks": [
+      {
+       "name": "Margarita Flight",
+       "type": "cocktail",
+       "desc": "Four house margaritas — classic, spicy, mango and tamarind",
+       "estimate": "$22-28"
+      },
+      {
+       "name": "Spicy Passion Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, passion fruit, chile and lime",
+       "estimate": "$17-20"
+      },
+      {
+       "name": "Mezcal Old Fashioned",
+       "type": "spirits",
+       "desc": "Smoky mezcal, agave and bitters",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Paloma",
+       "type": "cocktail",
+       "desc": "Tequila, grapefruit soda and lime — bright and bubbly",
+       "estimate": "$15-18"
+      }
+     ]
+    },
+    {
+     "name": "La Hacienda de San Angel",
+     "area": "Mexico Pavilion",
+     "drinks": [
+      {
+       "name": "La Hacienda Margarita",
+       "type": "cocktail",
+       "desc": "Premium tequila margarita with a World Showcase Lagoon view",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Cucumber Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, cucumber, lime and a chile-salt rim",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Mexican Beer Flight",
+       "type": "beer",
+       "desc": "Modelo, Dos Equis, Pacifico and Negra Modelo",
+       "estimate": "$13-17"
+      }
+     ]
+    },
+    {
+     "name": "Nine Dragons Restaurant",
+     "area": "China Pavilion",
+     "drinks": [
+      {
+       "name": "Dragon Sangria",
+       "type": "cocktail",
+       "desc": "Plum wine, lychee and citrus over ice",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Lychee Martini",
+       "type": "cocktail",
+       "desc": "Vodka, lychee and a touch of rose",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Tsingtao Lager",
+       "type": "beer",
+       "desc": "Crisp Chinese pilsner",
+       "estimate": "$8-11"
+      }
+     ]
+    },
+    {
+     "name": "Regal Eagle Smokehouse",
+     "area": "American Adventure",
+     "drinks": [
+      {
+       "name": "Craft Beer Flight",
+       "type": "beer",
+       "desc": "Four American craft brews to pair with barbecue",
+       "estimate": "$13-17"
+      },
+      {
+       "name": "Bourbon Barrel Ale",
+       "type": "beer",
+       "desc": "Rich barrel-aged amber ale",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "American Red Wine",
+       "type": "wine",
+       "desc": "California cabernet by the glass",
+       "estimate": "$10-14"
+      }
+     ]
+    },
+    {
+     "name": "Takumi-Tei",
+     "area": "Japan Pavilion",
+     "drinks": [
+      {
+       "name": "Japanese Whisky Flight",
+       "type": "spirits",
+       "desc": "Three premium Japanese whiskies, neat",
+       "estimate": "$28-45"
+      },
+      {
+       "name": "Yuzu Highball",
+       "type": "cocktail",
+       "desc": "Japanese whisky, yuzu and soda",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Premium Junmai Sake",
+       "type": "spirits",
+       "desc": "Hand-selected junmai daiginjo, served chilled",
+       "estimate": "$18-30"
+      }
+     ]
+    },
+    {
+     "name": "La Crêperie de Paris",
+     "area": "France Pavilion",
+     "drinks": [
+      {
+       "name": "Hard Cider (Cidre)",
+       "type": "beer",
+       "desc": "Traditional Breton apple cider — brut or doux",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "Kir Breton",
+       "type": "cocktail",
+       "desc": "Apple cider with crème de cassis",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "French Rosé",
+       "type": "wine",
+       "desc": "Crisp Provençal rosé",
+       "estimate": "$11-15"
+      }
+     ]
+    },
+    {
+     "name": "Le Cellier Steakhouse",
+     "area": "Canada Pavilion",
+     "drinks": [
+      {
+       "name": "Canadian Cabernet",
+       "type": "wine",
+       "desc": "Full-bodied red from Canadian vineyards",
+       "estimate": "$13-18"
+      },
+      {
+       "name": "Maple Whiskey Sour",
+       "type": "spirits",
+       "desc": "Canadian whisky, maple, lemon and bitters",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "La Fin du Monde",
+       "type": "beer",
+       "desc": "Unibroue's legendary Québec tripel",
+       "estimate": "$11-14"
+      },
+      {
+       "name": "Ice Wine Flight",
+       "type": "wine",
+       "desc": "Three sweet Canadian ice wines",
+       "estimate": "$18-26"
+      }
+     ]
+    },
+    {
+     "name": "Space 220 Lounge",
+     "area": "World Discovery",
+     "drinks": [
+      {
+       "name": "Big Bang",
+       "type": "cocktail",
+       "desc": "Vodka, elderflower, citrus and edible glitter — served among the stars",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Lightyear",
+       "type": "cocktail",
+       "desc": "Tequila, blue curaçao and lime — cosmic blue",
+       "estimate": "$15-19"
+      },
+      {
+       "name": "Celestial Sunrise",
+       "type": "cocktail",
+       "desc": "Gin, Aperol, orange and sparkling wine",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Stargazer Wine",
+       "type": "wine",
+       "desc": "Curated red or white with a view of Earth",
+       "estimate": "$12-16"
+      }
+     ]
+    }
+   ]
+  },
+  "hs": {
+   "name": "Hollywood Studios",
+   "venues": [
+    {
+     "name": "Oga's Cantina",
+     "area": "Star Wars: Galaxy's Edge",
+     "drinks": [
+      {
+       "name": "Fuzzy Tauntaun",
+       "type": "cocktail",
+       "desc": "Peach vodka, orange juice & tangy buzz button foam — tingles your lips!",
+       "estimate": "$18-22"
+      },
+      {
+       "name": "Jedi Mind Trick",
+       "type": "cocktail",
+       "desc": "Grapefruit, rose, bitters — smooth and Jedi-worthy",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Bespin Fizz",
+       "type": "cocktail",
+       "desc": "Rum, yuzu, pomegranate with cloud-like foam",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Dagobah Slug Slinger",
+       "type": "cocktail",
+       "desc": "Herradura tequila, blue curaçao, citrus, ginger, herbs",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Yub Nub",
+       "type": "cocktail",
+       "desc": "Malibu rum, Sailor Jerry, citrus, passion fruit — Ewok celebration!",
+       "estimate": "$16-20"
+      }
+     ]
+    },
+    {
+     "name": "BaseLine Tap House",
+     "area": "Grand Avenue",
+     "drinks": [
+      {
+       "name": "Craft Beer Flight",
+       "type": "beer",
+       "desc": "Four rotating Florida and craft breweries on tap",
+       "estimate": "$12-16"
+      },
+      {
+       "name": "California Wine",
+       "type": "wine",
+       "desc": "Selection of West Coast wines by the glass",
+       "estimate": "$10-14"
+      },
+      {
+       "name": "Baseline IPA",
+       "type": "beer",
+       "desc": "Hoppy IPA from local craft brewery",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Woody's Lunch Box",
+     "area": "Toy Story Land",
+     "drinks": [
+      {
+       "name": "Adult Lemonade",
+       "type": "cocktail",
+       "desc": "Frozen lemonade with cherry vodka — refreshing on hot days!",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Grown-Up Punch",
+       "type": "cocktail",
+       "desc": "Fruit punch with vodka and ginger ale",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Tune-In Lounge",
+     "area": "50's Prime Time Cafe area",
+     "drinks": [
+      {
+       "name": "Dad's Electric Lemonade",
+       "type": "cocktail",
+       "desc": "Vodka, rum, blue curaçao & lemon-lime — 50s style!",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "PB&J Milkshake (adult)",
+       "type": "cocktail",
+       "desc": "Vodka, Chambord, chocolate with peanut butter",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Retro Draft Beer",
+       "type": "beer",
+       "desc": "Classic American lagers & ales",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Hollywood Brown Derby Lounge",
+     "area": "Hollywood Boulevard",
+     "drinks": [
+      {
+       "name": "Grapefruit Cake Martini",
+       "type": "cocktail",
+       "desc": "Vodka, grapefruit, cream with sugar rim — the classic Derby drink!",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Derby Mule",
+       "type": "cocktail",
+       "desc": "Bourbon, ginger beer, lime, peach",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Wine Flight",
+       "type": "wine",
+       "desc": "Three curated wines from Napa and beyond",
+       "estimate": "$14-18"
+      }
+     ]
+    },
+    {
+     "name": "Sci-Fi Dine-In Theater",
+     "area": "Commissary Lane",
+     "drinks": [
+      {
+       "name": "Dark Side Punch",
+       "type": "cocktail",
+       "desc": "Vodka, rum, blue curaçao and citrus under the drive-in stars",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Cherry Cola Cocktail",
+       "type": "cocktail",
+       "desc": "Bourbon, cola and cherry — retro drive-in style",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Draft Beer",
+       "type": "beer",
+       "desc": "Domestic and craft selections on tap",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Mama Melrose's Ristorante",
+     "area": "Grand Avenue",
+     "drinks": [
+      {
+       "name": "Tuscan Sangria",
+       "type": "cocktail",
+       "desc": "Red wine, brandy and seasonal fruit",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Chianti Classico",
+       "type": "wine",
+       "desc": "Rustic Italian red",
+       "estimate": "$11-15"
+      },
+      {
+       "name": "Limoncello Spritz",
+       "type": "cocktail",
+       "desc": "Limoncello, prosecco and soda",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Peroni",
+       "type": "beer",
+       "desc": "Italian lager on tap",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Roundup Rodeo BBQ",
+     "area": "Toy Story Land",
+     "drinks": [
+      {
+       "name": "Rootin' Tootin' Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, lime and prickly pear — yee-haw!",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Woody's Round-Up Punch",
+       "type": "cocktail",
+       "desc": "Rum, pineapple and cherry",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Craft Beer",
+       "type": "beer",
+       "desc": "Local Florida brews on tap",
+       "estimate": "$9-12"
+      }
+     ]
+    }
+   ]
+  },
+  "ak": {
+   "name": "Animal Kingdom",
+   "venues": [
+    {
+     "name": "Pongu Pongu",
+     "area": "Pandora - The World of Avatar",
+     "drinks": [
+      {
+       "name": "Night Blossom (with rum)",
+       "type": "cocktail",
+       "desc": "Frozen lime, apple, desert pear with rum — glows at night!",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Mo'ara Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, strawberry, lime with boba balls",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Hawkes' Grog Ale",
+       "type": "beer",
+       "desc": "Tropical wheat ale brewed for Pandora",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Nomad Lounge",
+     "area": "Discovery Island (next to Tiffins)",
+     "drinks": [
+      {
+       "name": "Jenn's Tattoo",
+       "type": "cocktail",
+       "desc": "Gin, Aperol, kaffir lime leaf, prosecco",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Lamu Libation",
+       "type": "cocktail",
+       "desc": "Starr African rum, pineapple, falernum, bitters",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Tempting Tigress",
+       "type": "cocktail",
+       "desc": "Bourbon, mango, chili, lime — bold and spicy!",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Global Craft Beer Flight",
+       "type": "beer",
+       "desc": "Four beers from around the world",
+       "estimate": "$13-17"
+      }
+     ]
+    },
+    {
+     "name": "Dawa Bar",
+     "area": "Africa - Harambe",
+     "drinks": [
+      {
+       "name": "Safari Amber",
+       "type": "beer",
+       "desc": "Exclusive amber lager brewed for Animal Kingdom",
+       "estimate": "$10-13"
+      },
+      {
+       "name": "Harambe Punch",
+       "type": "cocktail",
+       "desc": "Rum, passion fruit, guava, orange",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Tusker Lager",
+       "type": "beer",
+       "desc": "Kenyan-style lager — crisp and light",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Thirsty River Bar",
+     "area": "Asia",
+     "drinks": [
+      {
+       "name": "Kali River Punch",
+       "type": "cocktail",
+       "desc": "Tropical rum punch inspired by the rapids",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Mandarin Orange Vodka",
+       "type": "cocktail",
+       "desc": "Vodka, mandarin, soda — light and refreshing",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Asian Lager",
+       "type": "beer",
+       "desc": "Singha or Tiger Beer on draft",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Rainforest Cafe Bar",
+     "area": "Park Entrance",
+     "drinks": [
+      {
+       "name": "Volcano",
+       "type": "cocktail",
+       "desc": "Multi-rum blend with tropical juices — erupts with dry ice!",
+       "estimate": "$15-20"
+      },
+      {
+       "name": "Amazon Ale",
+       "type": "beer",
+       "desc": "House-brewed amber ale",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Tropical Sangria",
+       "type": "wine",
+       "desc": "Red wine with mango, passion fruit, citrus",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Yak & Yeti Restaurant",
+     "area": "Asia",
+     "drinks": [
+      {
+       "name": "Yak Attack",
+       "type": "cocktail",
+       "desc": "Bacardi, melon, pineapple and sour — the signature sipper",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Himalayan Ghost",
+       "type": "cocktail",
+       "desc": "Vodka, peach and passion fruit",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Spiked Mango Lassi",
+       "type": "cocktail",
+       "desc": "Mango, yogurt and a splash of rum",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Kingfisher Lager",
+       "type": "beer",
+       "desc": "Crisp Indian lager",
+       "estimate": "$9-12"
+      }
+     ]
+    },
+    {
+     "name": "Tusker House Restaurant",
+     "area": "Africa - Harambe",
+     "drinks": [
+      {
+       "name": "African Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, marula fruit and lime",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Amarula Cream",
+       "type": "spirits",
+       "desc": "South African marula cream liqueur over ice",
+       "estimate": "$11-14"
+      },
+      {
+       "name": "Sub-Saharan Sunset",
+       "type": "cocktail",
+       "desc": "Rum, mango and grenadine",
+       "estimate": "$13-16"
+      }
+     ]
+    },
+    {
+     "name": "Flame Tree Barbecue",
+     "area": "Discovery Island",
+     "drinks": [
+      {
+       "name": "Safari Amber Draft",
+       "type": "beer",
+       "desc": "Animal Kingdom exclusive amber on tap",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Frozen Sangria",
+       "type": "wine",
+       "desc": "Frozen red wine sangria — riverside refreshment",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Hard Cider",
+       "type": "beer",
+       "desc": "Crisp apple cider",
+       "estimate": "$9-12"
+      }
+     ]
+    }
+   ]
+  },
+  "ds": {
+   "name": "Disney Springs",
+   "venues": [
+    {
+     "name": "Jock Lindsey's Hangar Bar",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Hovito Mojito",
+       "type": "cocktail",
+       "desc": "Rum, lime, mint — Indiana Jones themed classic!",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Cool-Headed Monkey",
+       "type": "cocktail",
+       "desc": "Vodka, coffee liqueur, crème de banana, chocolate",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "The Reggie's Revenge",
+       "type": "cocktail",
+       "desc": "Rum, blue curaçao, pineapple, coconut — bright blue!",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Snakebite",
+       "type": "beer",
+       "desc": "Lager and cider blend — dangerously smooth",
+       "estimate": "$10-13"
+      }
+     ]
+    },
+    {
+     "name": "Wine Bar George",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Wine on Tap",
+       "type": "wine",
+       "desc": "Master Sommelier curated wines by the ounce",
+       "estimate": "$8-18/oz"
+      },
+      {
+       "name": "Frozen Wine Slushy",
+       "type": "wine",
+       "desc": "Frozen rosé or red sangria — best seller!",
+       "estimate": "$14-18"
+      },
+      {
+       "name": "Wine Flight",
+       "type": "wine",
+       "desc": "Three curated wines with tasting notes",
+       "estimate": "$16-28"
+      },
+      {
+       "name": "Artisanal Cheese & Wine",
+       "type": "wine",
+       "desc": "Paired cheese board with wine selection",
+       "estimate": "$22-30"
+      }
+     ]
+    },
+    {
+     "name": "Morimoto Asia Lounge",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Forbidden City",
+       "type": "cocktail",
+       "desc": "Sake, plum wine, yuzu, ginger — elegant and complex",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Thai Basil Lemonade",
+       "type": "cocktail",
+       "desc": "Vodka, Thai basil, lemon, soda — herbaceous fresh",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Japanese Beer Flight",
+       "type": "beer",
+       "desc": "Sapporo, Asahi, Kirin, and seasonal Japanese brew",
+       "estimate": "$14-18"
+      }
+     ]
+    },
+    {
+     "name": "The Edison",
+     "area": "Town Center",
+     "drinks": [
+      {
+       "name": "The Edison Signature",
+       "type": "cocktail",
+       "desc": "Gin, elderflower, lavender, prosecco — electric!",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Bourbon Smash",
+       "type": "spirits",
+       "desc": "Maker's Mark, lemon, mint, simple syrup",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Craft Cocktail Flight",
+       "type": "cocktail",
+       "desc": "Three signature mini cocktails",
+       "estimate": "$18-24"
+      },
+      {
+       "name": "Victorian Tea",
+       "type": "cocktail",
+       "desc": "Gin, chamomile, honey, lemon — served in a teacup",
+       "estimate": "$15-18"
+      }
+     ]
+    },
+    {
+     "name": "Raglan Road",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Guinness",
+       "type": "beer",
+       "desc": "The perfect pint — on nitro tap",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Irish Coffee",
+       "type": "spirits",
+       "desc": "Jameson, fresh coffee, brown sugar, cream",
+       "estimate": "$12-15"
+      },
+      {
+       "name": "Smithwick's Ale",
+       "type": "beer",
+       "desc": "Smooth Irish red ale",
+       "estimate": "$9-12"
+      },
+      {
+       "name": "Celtic Cosmo",
+       "type": "cocktail",
+       "desc": "Irish vodka, cranberry, lime, elderflower",
+       "estimate": "$14-17"
+      }
+     ]
+    },
+    {
+     "name": "STK Orlando",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "STK Old Fashioned",
+       "type": "spirits",
+       "desc": "Premium bourbon, orange, bitters — timeless",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Cucumber Stiletto",
+       "type": "cocktail",
+       "desc": "Vodka, cucumber, elderflower, mint",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Wine List",
+       "type": "wine",
+       "desc": "Extensive wine list — 100+ labels",
+       "estimate": "$14-30"
+      }
+     ]
+    },
+    {
+     "name": "Splitsville",
+     "area": "West Side",
+     "drinks": [
+      {
+       "name": "Strike Margarita",
+       "type": "cocktail",
+       "desc": "Patron, triple sec, lime — with or without salt",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Pineapple Upside Down",
+       "type": "cocktail",
+       "desc": "Cake vodka, pineapple juice, grenadine",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Craft Beer Selection",
+       "type": "beer",
+       "desc": "20+ taps of craft & domestic beers",
+       "estimate": "$8-14"
+      }
+     ]
+    },
+    {
+     "name": "House of Blues",
+     "area": "West Side",
+     "drinks": [
+      {
+       "name": "Voodoo Bucket",
+       "type": "cocktail",
+       "desc": "Multi-spirit rum bucket with tropical juices — shareable!",
+       "estimate": "$20-28"
+      },
+      {
+       "name": "Southern Whiskey Sour",
+       "type": "spirits",
+       "desc": "Bourbon, lemon, egg white foam, bitters",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Louisiana Lager",
+       "type": "beer",
+       "desc": "Abita Amber or seasonal Louisiana craft",
+       "estimate": "$8-12"
+      }
+     ]
+    },
+    {
+     "name": "The BOATHOUSE",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Coconut Mojito",
+       "type": "cocktail",
+       "desc": "Rum, coconut, mint and lime — dockside classic",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Rum Runner",
+       "type": "cocktail",
+       "desc": "Blackbeard blend of rums with tropical juices",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Wine by the Glass",
+       "type": "wine",
+       "desc": "Extensive by-the-glass list, waterfront",
+       "estimate": "$12-20"
+      }
+     ]
+    },
+    {
+     "name": "Enzo's Hideaway",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Negroni",
+       "type": "cocktail",
+       "desc": "Gin, Campari and sweet vermouth — Roman speakeasy classic",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Aperol Spritz",
+       "type": "cocktail",
+       "desc": "Aperol, prosecco and soda",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Barrel-Aged Old Fashioned",
+       "type": "spirits",
+       "desc": "Bourbon aged in-house with bitters",
+       "estimate": "$16-20"
+      }
+     ]
+    },
+    {
+     "name": "City Works Eatery & Pour House",
+     "area": "Town Center",
+     "drinks": [
+      {
+       "name": "90-Tap Beer Flight",
+       "type": "beer",
+       "desc": "Build your own flight from 90 rotating taps",
+       "estimate": "$12-18"
+      },
+      {
+       "name": "Frosé",
+       "type": "cocktail",
+       "desc": "Frozen rosé with strawberry",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Signature Sangria",
+       "type": "wine",
+       "desc": "Red or white sangria on tap",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Chef Art Smith's Homecomin'",
+     "area": "The Landing",
+     "drinks": [
+      {
+       "name": "Moonshine Mule",
+       "type": "cocktail",
+       "desc": "Florida moonshine, ginger beer and lime",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Shine Punch",
+       "type": "cocktail",
+       "desc": "Rotating moonshine punch of the day",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Spiked Front Porch Lemonade",
+       "type": "cocktail",
+       "desc": "Vodka, blueberry and lemonade",
+       "estimate": "$13-16"
+      }
+     ]
+    },
+    {
+     "name": "Frontera Cocina",
+     "area": "Town Center",
+     "drinks": [
+      {
+       "name": "Topolo Margarita",
+       "type": "cocktail",
+       "desc": "Rick Bayless signature margarita with fresh lime",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Mezcal Paloma",
+       "type": "cocktail",
+       "desc": "Mezcal, grapefruit and lime",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Michelada",
+       "type": "beer",
+       "desc": "Mexican lager, lime, chile and spices",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Dockside Margaritas",
+     "area": "The Marketplace",
+     "drinks": [
+      {
+       "name": "Classic Frozen Margarita",
+       "type": "cocktail",
+       "desc": "Frozen lime margarita by the waterfront",
+       "estimate": "$13-16"
+      },
+      {
+       "name": "Blue Coconut Margarita",
+       "type": "cocktail",
+       "desc": "Coconut rum, blue curaçao and pineapple",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Sangria Swirl",
+       "type": "cocktail",
+       "desc": "Frozen margarita swirled with red sangria",
+       "estimate": "$14-17"
+      }
+     ]
+    },
+    {
+     "name": "Paddlefish",
+     "area": "The Marketplace",
+     "drinks": [
+      {
+       "name": "Rooftop Rum Punch",
+       "type": "cocktail",
+       "desc": "Rum, passion fruit and citrus on the top deck",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Crabby Bloody Mary",
+       "type": "cocktail",
+       "desc": "Vodka bloody mary loaded with seafood garnish",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Champagne",
+       "type": "wine",
+       "desc": "By the glass, dockside",
+       "estimate": "$14-20"
+      }
+     ]
+    },
+    {
+     "name": "Jaleo by José Andrés",
+     "area": "West Side",
+     "drinks": [
+      {
+       "name": "Sangria de Cava",
+       "type": "cocktail",
+       "desc": "Sparkling cava sangria with fresh fruit",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Gin & Tonic Español",
+       "type": "cocktail",
+       "desc": "Spanish-style gin tonic with botanicals",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Rioja",
+       "type": "wine",
+       "desc": "Classic Spanish red",
+       "estimate": "$11-16"
+      }
+     ]
+    }
+   ]
+  },
+  "resorts": {
+   "name": "Resort Bars",
+   "venues": [
+    {
+     "name": "Trader Sam's Grog Grotto",
+     "area": "Polynesian Village Resort",
+     "drinks": [
+      {
+       "name": "Nautilus",
+       "type": "cocktail",
+       "desc": "Rum, falernum, grapefruit and lime — shareable and interactive!",
+       "estimate": "$28-34"
+      },
+      {
+       "name": "Uh-Oa!",
+       "type": "cocktail",
+       "desc": "Five rums, tropical juices and spices in a flaming bowl",
+       "estimate": "$36-42"
+      },
+      {
+       "name": "HippopotoMai-Tai",
+       "type": "cocktail",
+       "desc": "Classic mai tai with a mischievous wink",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Krakatoa Punch",
+       "type": "cocktail",
+       "desc": "Rum, melon and citrus that erupts at the bar",
+       "estimate": "$16-19"
+      }
+     ]
+    },
+    {
+     "name": "Enchanted Rose",
+     "area": "Grand Floridian Resort",
+     "drinks": [
+      {
+       "name": "The Rose",
+       "type": "cocktail",
+       "desc": "Gin, St-Germain, rosé and rose water — Beauty & the Beast elegance",
+       "estimate": "$17-21"
+      },
+      {
+       "name": "Gaston",
+       "type": "cocktail",
+       "desc": "Bourbon, apple and cinnamon — no one drinks like Gaston",
+       "estimate": "$16-20"
+      },
+      {
+       "name": "Champagne Flight",
+       "type": "wine",
+       "desc": "Three sparkling pours in the rose garden lounge",
+       "estimate": "$22-32"
+      }
+     ]
+    },
+    {
+     "name": "Territory Lounge",
+     "area": "Wilderness Lodge",
+     "drinks": [
+      {
+       "name": "Ranger Boot",
+       "type": "beer",
+       "desc": "A boot-shaped stein of craft beer",
+       "estimate": "$14-18"
+      },
+      {
+       "name": "Huckleberry Old Fashioned",
+       "type": "spirits",
+       "desc": "Bourbon, huckleberry and bitters",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Trailblazer Wine",
+       "type": "wine",
+       "desc": "Pacific Northwest red or white by the glass",
+       "estimate": "$11-15"
+      }
+     ]
+    },
+    {
+     "name": "Geyser Point Bar & Grill",
+     "area": "Wilderness Lodge",
+     "drinks": [
+      {
+       "name": "Black Blossom",
+       "type": "cocktail",
+       "desc": "Vodka, blackberry, elderflower and lime — lakeside favorite",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Ricchi Sunset",
+       "type": "cocktail",
+       "desc": "Tequila, orange and grenadine",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "Craft Draft",
+       "type": "beer",
+       "desc": "Rotating Pacific Northwest taps",
+       "estimate": "$9-13"
+      }
+     ]
+    },
+    {
+     "name": "Three Bridges Bar & Grill",
+     "area": "Coronado Springs Resort",
+     "drinks": [
+      {
+       "name": "Agua de Valencia",
+       "type": "cocktail",
+       "desc": "Cava, orange, gin and vodka — Spanish sparkling punch",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Prickly Pear Margarita",
+       "type": "cocktail",
+       "desc": "Tequila, prickly pear and lime",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Island Sangria",
+       "type": "wine",
+       "desc": "Red or white sangria on the lagoon island bar",
+       "estimate": "$12-15"
+      }
+     ]
+    },
+    {
+     "name": "Topolino's Terrace",
+     "area": "Riviera Resort",
+     "drinks": [
+      {
+       "name": "Aperitivo Spritz",
+       "type": "cocktail",
+       "desc": "Aperol, prosecco and orange with a rooftop fireworks view",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Riviera Negroni",
+       "type": "cocktail",
+       "desc": "Gin, Campari and vermouth",
+       "estimate": "$16-19"
+      },
+      {
+       "name": "Italian Wine Flight",
+       "type": "wine",
+       "desc": "Three curated Mediterranean pours",
+       "estimate": "$18-26"
+      }
+     ]
+    },
+    {
+     "name": "AbracadaBar",
+     "area": "BoardWalk",
+     "drinks": [
+      {
+       "name": "Magic Mirror",
+       "type": "cocktail",
+       "desc": "Vodka, elderflower, lemon and a shimmer of magic",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Side Show",
+       "type": "cocktail",
+       "desc": "Bourbon, amaretto and orange — a magician's classic",
+       "estimate": "$15-18"
+      },
+      {
+       "name": "Conjurer's Old Fashioned",
+       "type": "spirits",
+       "desc": "Rye, demerara and bitters",
+       "estimate": "$16-19"
+      }
+     ]
+    },
+    {
+     "name": "Victoria Falls Lounge",
+     "area": "Animal Kingdom Lodge",
+     "drinks": [
+      {
+       "name": "Kilimanjaro Sunset",
+       "type": "cocktail",
+       "desc": "Rum, mango, passion fruit and grenadine over the savanna",
+       "estimate": "$14-17"
+      },
+      {
+       "name": "South African Wine Flight",
+       "type": "wine",
+       "desc": "Three bold South African reds",
+       "estimate": "$16-24"
+      },
+      {
+       "name": "Amarula Nightcap",
+       "type": "spirits",
+       "desc": "Marula cream liqueur over ice",
+       "estimate": "$11-14"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

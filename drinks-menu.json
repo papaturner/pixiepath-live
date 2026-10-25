@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-24",
+  "about": "Live overrides for drinks.html. The app fetches this file from GitHub once a day and lays it over the built-in menu by park + venue + drink name. A daily cloud routine re-checks public menus and commits changes here. Items with status 'verified' carry an exact price and the date it was seen; everything else in the app stays an estimate range.",
+  "sources": [
+    "https://www.wdwmagic.com/dining/",
+    "https://www.thrill-data.com/disney-menus/wdw/",
+    "https://disneyblog.com/",
+    "https://blogmickey.com/2026/10/food-drink-price-increases-at-walt-disney-world-2026/"
+  ],
+  "items": [
+    { "park": "mk", "venue": "Gaston's Tavern", "name": "LeFou's Brew", "price": "$6.99", "status": "verified", "checked": "2026-08-24", "zero": true, "note": "Souvenir stein version is $14.79" },
+    { "park": "mk", "venue": "Gaston's Tavern", "name": "Frozen Apple Juice", "zero": true },
+    { "park": "mk", "venue": "Gaston's Tavern", "name": "Cinnamon Roll", "zero": true },
+    { "park": "epcot", "venue": "Les Vins des Chefs de France", "name": "Grand Marnier Slush", "price": "$15.75", "status": "verified", "checked": "2026-10-01", "note": "Up from $14.95 on Oct 1" },
+    { "park": "hs", "venue": "Oga's Cantina", "name": "Fuzzy Tauntaun", "price": "$20.00", "status": "verified", "checked": "2026-08-24" },
+    { "park": "hs", "venue": "Oga's Cantina", "name": "Blue Bantha", "type": "cocktail", "emoji": "🥛", "desc": "Blue milk, served cold — the one from the movies", "price": "$14.00", "status": "verified", "checked": "2026-06-30", "zero": true, "add": true },
+    { "park": "mk", "venue": "Aloha Isle / Trader Sam's", "name": "Dole Whip Float", "zero": true }
+  ],
+  "venues": [
+    { "park": "hs", "name": "Oga's Cantina", "hours": "Reservations open 60 days out", "pick": "Fuzzy Tauntaun" },
+    { "park": "epcot", "venue": "Les Vins des Chefs de France", "name": "Les Vins des Chefs de France", "pick": "Grand Marnier Slush" },
+    { "park": "mk", "name": "Gaston's Tavern", "pick": "LeFou's Brew" }
+  ],
+  "removed": []
+}
