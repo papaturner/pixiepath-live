@@ -1,160 +1,925 @@
 {
-  "version": 1,
-  "checkedAt": "2026-10-25",
-  "about": "Live overrides for drinks.html. The app fetches this file from GitHub once a day and lays it over the built-in menu by park + venue + drink name. A daily cloud routine re-checks public menus and commits changes here. Items with status 'verified' carry an exact price and the date it was seen; everything else in the app stays an estimate range.",
-  "sources": [
-    "https://www.wdwmagic.com/dining/",
-    "https://www.thrill-data.com/disney-menus/wdw/",
-    "https://disneyblog.com/",
-    "https://blogmickey.com/2026/10/food-drink-price-increases-at-walt-disney-world-2026/",
-    "https://www.themouseforless.com/walt-disney-world/dining/menus/",
-    "https://disneyblog.com/bars/trader-sams-grog-grotto/"
-  ],
-  "items": [
-    {
-      "park": "mk",
-      "venue": "Gaston's Tavern",
-      "name": "LeFou's Brew",
-      "price": "$6.99",
-      "status": "verified",
-      "checked": "2026-08-24",
-      "zero": true,
-      "note": "Souvenir stein version is $14.79"
-    },
-    {
-      "park": "mk",
-      "venue": "Gaston's Tavern",
-      "name": "Frozen Apple Juice",
-      "zero": true
-    },
-    {
-      "park": "mk",
-      "venue": "Gaston's Tavern",
-      "name": "Cinnamon Roll",
-      "zero": true
-    },
-    {
-      "park": "epcot",
-      "venue": "Les Vins des Chefs de France",
-      "name": "Grand Marnier Slush",
-      "price": "$15.75",
-      "status": "verified",
-      "checked": "2026-10-01",
-      "note": "Up from $14.95 on Oct 1"
-    },
-    {
-      "park": "hs",
-      "venue": "Oga's Cantina",
-      "name": "Fuzzy Tauntaun",
-      "price": "$20.00",
-      "status": "verified",
-      "checked": "2026-08-24"
-    },
-    {
-      "park": "hs",
-      "venue": "Oga's Cantina",
-      "name": "Blue Bantha",
-      "type": "cocktail",
-      "emoji": "🥛",
-      "desc": "Blue milk, served cold — the one from the movies",
-      "price": "$14.00",
-      "status": "verified",
-      "checked": "2026-06-30",
-      "zero": true,
-      "add": true
-    },
-    {
-      "park": "mk",
-      "venue": "Aloha Isle / Trader Sam's",
-      "name": "Dole Whip Float",
-      "zero": true
-    },
-    {
-      "park": "resorts",
-      "venue": "Trader Sam's Grog Grotto",
-      "name": "HippopotoMai-Tai",
-      "price": "$19.50",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "Souvenir mug version $31.50 (Disneyblog, Jun 2026)"
-    },
-    {
-      "park": "resorts",
-      "venue": "Trader Sam's Grog Grotto",
-      "name": "Krakatoa Punch",
-      "price": "$19.50",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "Disneyblog, Jun 2026"
-    },
-    {
-      "park": "resorts",
-      "venue": "Trader Sam's Grog Grotto",
-      "name": "Uh-Oa!",
-      "price": "$28.50",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "Disneyblog, Jun 2026"
-    },
-    {
-      "park": "epcot",
-      "venue": "Rose & Crown Pub",
-      "name": "Welsh Dragon",
-      "price": "$14.50",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "The Mouse for Less 2026 menu; matches WDWMagic May 2026"
-    },
-    {
-      "park": "epcot",
-      "venue": "Rose & Crown Pub",
-      "name": "Pimm's Cup",
-      "price": "$15.50",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "The classic English cooler",
-      "add": true,
-      "type": "cocktail",
-      "emoji": "🍓",
-      "desc": "Pimm's No. 1 with lemonade and fresh fruit — the classic English cooler"
-    },
-    {
-      "park": "epcot",
-      "venue": "La Cava del Tequila",
-      "name": "Avocado Margarita",
-      "price": "$21.00",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "Listed as Dos Hombres Avocado; The Mouse for Less 2026 menu"
-    },
-    {
-      "park": "ak",
-      "venue": "Dawa Bar",
-      "name": "Safari Amber",
-      "price": "$12.50",
-      "status": "verified",
-      "checked": "2026-10-25",
-      "note": "Draft; The Mouse for Less 2026 menu"
-    }
-  ],
-  "venues": [
-    {
-      "park": "hs",
-      "name": "Oga's Cantina",
-      "hours": "Reservations open 60 days out",
-      "pick": "Fuzzy Tauntaun"
-    },
-    {
-      "park": "epcot",
-      "venue": "Les Vins des Chefs de France",
-      "name": "Les Vins des Chefs de France",
-      "pick": "Grand Marnier Slush"
-    },
-    {
-      "park": "mk",
-      "name": "Gaston's Tavern",
-      "pick": "LeFou's Brew"
-    }
-  ],
-  "removed": []
+ "version": 1,
+ "checkedAt": "2026-10-24",
+ "about": "Live overrides for drinks.html, rewritten daily by sweep.py (GitHub Actions, no model in the loop). Exact prices are read from public menu pages; everything not seen stays an estimate in the app.",
+ "sources": [
+  "https://disneyblog.com/destinations/walt-disney-world/epcot/epcot/kabuki-cafe/",
+  "https://disneyblog.com/destinations/walt-disney-world/epcot/epcot/les-vins-des-chefs-de-france/",
+  "https://disneyblog.com/bars/rose-and-crown-pub/",
+  "https://www.themouseforless.com/walt-disney-world/dining/menus/la-hacienda-de-san-angel-menu/",
+  "https://disneyblog.com/destinations/walt-disney-world/epcot/world-showcase-china/nine-dragons-restaurant/",
+  "https://disneyblog.com/destinations/walt-disney-world/epcot/world-showcase/canada/le-cellier-steakhouse/",
+  "https://disneyblog.com/bars/ogas-cantina/",
+  "https://www.themouseforless.com/walt-disney-world/dining/menus/tune-in-lounge-menu/",
+  "https://disneyblog.com/destinations/walt-disney-world/hollywood-studios/hollywood-boulevard/hollywood-brown-derby/",
+  "https://disneyblog.com/destinations/walt-disney-world/hollywood-studios/commissary-lane/sci-fi-dine-in-theater-restaurant/",
+  "https://www.themouseforless.com/walt-disney-world/dining/menus/pongu-pongu-menu/",
+  "https://disneyblog.com/destinations/walt-disney-world/animal-kingdom/discovery-island/nomad-lounge/",
+  "https://www.themouseforless.com/walt-disney-world/dining/menus/dawa-bar-menu/",
+  "https://disneyblog.com/destinations/walt-disney-world/animal-kingdom/asia/yak-and-yeti-restaurant/",
+  "https://disneyblog.com/destinations/walt-disney-world/animal-kingdom/africa/tusker-house-restaurant/",
+  "https://disneyblog.com/bars/jock-lindseys-hangar-bar/",
+  "https://disneyblog.com/destinations/walt-disney-world/disney-springs/raglan-road-irish-pub/",
+  "https://disneyblog.com/destinations/walt-disney-world/disney-springs/splitsville-luxury-lanes/",
+  "https://www.themouseforless.com/walt-disney-world/dining/menus/the-boathouse-menu/",
+  "https://disneyblog.com/destinations/walt-disney-world/disney-springs/enzos-hideaway-tunnel-bar/",
+  "https://disneyblog.com/destinations/walt-disney-world/disney-springs/chef-art-smiths-homecomin/",
+  "https://disneyblog.com/destinations/walt-disney-world/disney-springs/frontera-cocina/",
+  "https://www.themouseforless.com/walt-disney-world/dining/menus/paddlefish-menu/",
+  "https://disneyblog.com/bars/trader-sams-grog-grotto/",
+  "https://disneyblog.com/bars/abracadabar/"
+ ],
+ "items": [
+  {
+   "park": "ak",
+   "venue": "Dawa Bar",
+   "name": "Safari Amber",
+   "price": "$12.50",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "Draft; The Mouse for Less 2026 menu"
+  },
+  {
+   "park": "ak",
+   "venue": "Nomad Lounge",
+   "name": "Jenn's Tattoo",
+   "price": "$16.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ak",
+   "venue": "Nomad Lounge",
+   "name": "Lamu Libation",
+   "price": "$17.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ak",
+   "venue": "Nomad Lounge",
+   "name": "Tempting Tigress",
+   "price": "$18.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ak",
+   "venue": "Pongu Pongu",
+   "name": "Night Blossom (with rum)",
+   "price": "$7.29",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "listedAs": "Night Blossom Non-Alcoholic Specialty Beverage"
+  },
+  {
+   "park": "ak",
+   "venue": "Tusker House Restaurant",
+   "name": "African Margarita",
+   "price": "$15.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ak",
+   "venue": "Yak & Yeti Restaurant",
+   "name": "Yak Attack",
+   "price": "$14.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ds",
+   "venue": "Chef Art Smith's Homecomin'",
+   "name": "Shine Punch",
+   "price": "$16.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Rumshine Punch"
+  },
+  {
+   "park": "ds",
+   "venue": "Enzo's Hideaway",
+   "name": "Negroni",
+   "price": "$18.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Hidden Negroni"
+  },
+  {
+   "park": "ds",
+   "venue": "Frontera Cocina",
+   "name": "Mezcal Paloma",
+   "price": "$19.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "La Paloma"
+  },
+  {
+   "park": "ds",
+   "venue": "Frontera Cocina",
+   "name": "Topolo Margarita",
+   "price": "$19.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Topolo"
+  },
+  {
+   "park": "ds",
+   "venue": "Jock Lindsey's Hangar Bar",
+   "name": "Cool-Headed Monkey",
+   "price": "$17.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ds",
+   "venue": "Jock Lindsey's Hangar Bar",
+   "name": "Hovito Mojito",
+   "price": "$17.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ds",
+   "venue": "Jock Lindsey's Hangar Bar",
+   "name": "Snakebite",
+   "price": "$19.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Snakebite Bao Buns"
+  },
+  {
+   "park": "ds",
+   "venue": "Jock Lindsey's Hangar Bar",
+   "name": "The Reggie's Revenge",
+   "price": "$17.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Reggie's Revenge"
+  },
+  {
+   "park": "ds",
+   "venue": "Paddlefish",
+   "name": "Crabby Bloody Mary",
+   "price": "$20.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "listedAs": "The Bloody Mary"
+  },
+  {
+   "park": "ds",
+   "venue": "Raglan Road",
+   "name": "Guinness",
+   "price": "$10.75",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "ds",
+   "venue": "Raglan Road",
+   "name": "Irish Coffee",
+   "price": "$16.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Salivate Lost Irish Coffee"
+  },
+  {
+   "park": "ds",
+   "venue": "Splitsville",
+   "name": "Strike Margarita",
+   "price": "$16.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Margarita"
+  },
+  {
+   "park": "ds",
+   "venue": "The BOATHOUSE",
+   "name": "Coconut Mojito",
+   "price": "$16.00",
+   "status": "verified",
+   "checked": "2026-10-24"
+  },
+  {
+   "park": "ds",
+   "venue": "The BOATHOUSE",
+   "name": "Wine by the Glass",
+   "price": "$12.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "listedAs": "Port Wine by the Glass"
+  },
+  {
+   "park": "epcot",
+   "venue": "Biergarten Restaurant",
+   "name": "Beer Flight",
+   "price": "$18.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "German Beer Flight (Four Pours - 5 oz each)"
+  },
+  {
+   "park": "epcot",
+   "venue": "Biergarten Restaurant",
+   "name": "Jägermeister Shot",
+   "price": "$15.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Jägermeister"
+  },
+  {
+   "park": "epcot",
+   "venue": "Fife & Drum Tavern",
+   "name": "Frozen American Dream",
+   "price": "$6.99",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "The American Dream"
+  },
+  {
+   "park": "epcot",
+   "venue": "Fife & Drum Tavern",
+   "name": "Sam Adams Seasonal",
+   "price": "$13.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Samuel Adams Seasonal"
+  },
+  {
+   "park": "epcot",
+   "venue": "Joy of Tea",
+   "name": "Kung Fu Punch",
+   "price": "$14.25",
+   "status": "verified",
+   "checked": "2026-10-24"
+  },
+  {
+   "park": "epcot",
+   "venue": "Joy of Tea",
+   "name": "Tipsy Ducks in Love",
+   "price": "$14.75",
+   "status": "verified",
+   "checked": "2026-10-24"
+  },
+  {
+   "park": "epcot",
+   "venue": "Kabuki Cafe",
+   "name": "Kirin Ichiban",
+   "price": "$12.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "epcot",
+   "venue": "Kabuki Cafe",
+   "name": "Plum Wine",
+   "price": "$9.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "epcot",
+   "venue": "Kringla Bakeri Og Kafe",
+   "name": "Viking Coffee",
+   "price": "$16.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "epcot",
+   "venue": "La Cava del Tequila",
+   "name": "Avocado Margarita",
+   "price": "$21.00",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "Listed as Dos Hombres Avocado; The Mouse for Less 2026 menu"
+  },
+  {
+   "park": "epcot",
+   "venue": "La Cava del Tequila",
+   "name": "Blood Orange Margarita",
+   "price": "$18.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Blood Orange"
+  },
+  {
+   "park": "epcot",
+   "venue": "La Hacienda de San Angel",
+   "name": "La Hacienda Margarita",
+   "price": "$15.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "listedAs": "La Hacienda"
+  },
+  {
+   "park": "epcot",
+   "venue": "Le Cellier Steakhouse",
+   "name": "La Fin du Monde",
+   "price": "$13.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "La Fin du Monde - Draft"
+  },
+  {
+   "park": "epcot",
+   "venue": "Les Vins des Chefs de France",
+   "name": "Champagne",
+   "price": "$21.95",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Champagne Malard"
+  },
+  {
+   "park": "epcot",
+   "venue": "Les Vins des Chefs de France",
+   "name": "Grand Marnier Slush",
+   "price": "$15.75",
+   "status": "verified",
+   "checked": "2026-10-01",
+   "note": "Up from $14.95 on Oct 1"
+  },
+  {
+   "park": "epcot",
+   "venue": "Les Vins des Chefs de France",
+   "name": "Kronenbourg 1664",
+   "price": "$9.95",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "epcot",
+   "venue": "Nine Dragons Restaurant",
+   "name": "Lychee Martini",
+   "price": "$15.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "epcot",
+   "venue": "Rose & Crown Pub",
+   "name": "Guinness Stout",
+   "price": "$12.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "epcot",
+   "venue": "Rose & Crown Pub",
+   "name": "Pimm's Cup",
+   "price": "$15.50",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "The classic English cooler",
+   "add": true,
+   "type": "cocktail",
+   "emoji": "🍓",
+   "desc": "Pimm's No. 1 with lemonade and fresh fruit — the classic English cooler"
+  },
+  {
+   "park": "epcot",
+   "venue": "Rose & Crown Pub",
+   "name": "Welsh Dragon",
+   "price": "$14.50",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "The Mouse for Less 2026 menu; matches WDWMagic May 2026"
+  },
+  {
+   "park": "epcot",
+   "venue": "Tutto Gusto Wine Cellar",
+   "name": "Limoncello",
+   "price": "$24.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Limoncello Flight"
+  },
+  {
+   "park": "hs",
+   "venue": "Hollywood Brown Derby Lounge",
+   "name": "Grapefruit Cake Martini",
+   "price": "$16.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "hs",
+   "venue": "Oga's Cantina",
+   "name": "Bespin Fizz",
+   "price": "$22.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "hs",
+   "venue": "Oga's Cantina",
+   "name": "Blue Bantha",
+   "type": "cocktail",
+   "emoji": "🥛",
+   "desc": "Blue milk, served cold — the one from the movies",
+   "price": "$14.00",
+   "status": "verified",
+   "checked": "2026-06-30",
+   "zero": true,
+   "add": true
+  },
+  {
+   "park": "hs",
+   "venue": "Oga's Cantina",
+   "name": "Fuzzy Tauntaun",
+   "price": "$20.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "hs",
+   "venue": "Oga's Cantina",
+   "name": "Jedi Mind Trick",
+   "price": "$19.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "hs",
+   "venue": "Oga's Cantina",
+   "name": "Yub Nub",
+   "price": "$49.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "hs",
+   "venue": "Sci-Fi Dine-In Theater",
+   "name": "Draft Beer",
+   "price": "$9.75",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "hs",
+   "venue": "Tune-In Lounge",
+   "name": "Dad's Electric Lemonade",
+   "price": "$18.50",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "listedAs": "Dad’s Electric Lemonade"
+  },
+  {
+   "park": "mk",
+   "venue": "Aloha Isle / Trader Sam's",
+   "name": "Dole Whip Float",
+   "zero": true
+  },
+  {
+   "park": "mk",
+   "venue": "Gaston's Tavern",
+   "name": "Cinnamon Roll",
+   "zero": true,
+   "price": "$7.99",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "listedAs": "Warm Cinnamon Roll"
+  },
+  {
+   "park": "mk",
+   "venue": "Gaston's Tavern",
+   "name": "Frozen Apple Juice",
+   "zero": true
+  },
+  {
+   "park": "mk",
+   "venue": "Gaston's Tavern",
+   "name": "LeFou's Brew",
+   "price": "$6.99",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "zero": true,
+   "note": "Souvenir stein version is $14.79",
+   "listedAs": "Lefou’s Brew"
+  },
+  {
+   "park": "mk",
+   "venue": "Tony's Town Square Restaurant",
+   "name": "Chianti",
+   "price": "$56.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01",
+   "listedAs": "Sangiovese - Banfi Chianti Superiore Tuscany"
+  },
+  {
+   "park": "resorts",
+   "venue": "AbracadaBar",
+   "name": "Magic Mirror",
+   "price": "$7.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "resorts",
+   "venue": "Trader Sam's Grog Grotto",
+   "name": "HippopotoMai-Tai",
+   "price": "$19.50",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "Souvenir mug version $31.50 (Disneyblog, Jun 2026)"
+  },
+  {
+   "park": "resorts",
+   "venue": "Trader Sam's Grog Grotto",
+   "name": "Krakatoa Punch",
+   "price": "$19.50",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "Disneyblog, Jun 2026"
+  },
+  {
+   "park": "resorts",
+   "venue": "Trader Sam's Grog Grotto",
+   "name": "Nautilus",
+   "price": "$65.00",
+   "status": "verified",
+   "checked": "2026-10-24",
+   "menuDate": "2026-06-01"
+  },
+  {
+   "park": "resorts",
+   "venue": "Trader Sam's Grog Grotto",
+   "name": "Uh-Oa!",
+   "price": "$28.50",
+   "status": "verified",
+   "checked": "2026-10-25",
+   "note": "Disneyblog, Jun 2026"
+  }
+ ],
+ "venues": [
+  {
+   "park": "hs",
+   "name": "Oga's Cantina",
+   "hours": "Reservations open 60 days out",
+   "pick": "Fuzzy Tauntaun"
+  },
+  {
+   "park": "epcot",
+   "venue": "Les Vins des Chefs de France",
+   "name": "Les Vins des Chefs de France",
+   "pick": "Grand Marnier Slush"
+  },
+  {
+   "park": "mk",
+   "name": "Gaston's Tavern",
+   "pick": "LeFou's Brew"
+  }
+ ],
+ "removed": [],
+ "sweepState": {
+  "mk|Gaston's Tavern": {
+   "lastSeen": {
+    "LeFou's Brew": "2026-10-24",
+    "Cinnamon Roll": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "mk|Be Our Guest Restaurant": {
+   "lastSeen": {}
+  },
+  "mk|Liberty Tree Tavern": {
+   "lastSeen": {}
+  },
+  "mk|Aloha Isle / Trader Sam's": {
+   "lastSeen": {}
+  },
+  "mk|Cosmic Ray's Starlight Cafe": {
+   "lastSeen": {}
+  },
+  "mk|Cinderella's Royal Table": {
+   "lastSeen": {}
+  },
+  "mk|Tony's Town Square Restaurant": {
+   "lastSeen": {
+    "Chianti": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "mk|The Diamond Horseshoe": {
+   "lastSeen": {}
+  },
+  "epcot|La Cava del Tequila": {
+   "lastSeen": {
+    "Avocado Margarita": "2026-10-24",
+    "Blood Orange Margarita": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Kringla Bakeri Og Kafe": {
+   "lastSeen": {
+    "Viking Coffee": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Joy of Tea": {
+   "lastSeen": {
+    "Tipsy Ducks in Love": "2026-10-24",
+    "Kung Fu Punch": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Biergarten Restaurant": {
+   "lastSeen": {
+    "Beer Flight": "2026-10-24",
+    "Jägermeister Shot": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Tutto Gusto Wine Cellar": {
+   "lastSeen": {
+    "Limoncello": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Fife & Drum Tavern": {
+   "lastSeen": {
+    "Frozen American Dream": "2026-10-24",
+    "Sam Adams Seasonal": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Kabuki Cafe": {
+   "lastSeen": {
+    "Plum Wine": "2026-10-24",
+    "Kirin Ichiban": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Spice Road Table": {
+   "lastSeen": {}
+  },
+  "epcot|Les Vins des Chefs de France": {
+   "lastSeen": {
+    "Champagne": "2026-10-24",
+    "Kronenbourg 1664": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Rose & Crown Pub": {
+   "lastSeen": {
+    "Welsh Dragon": "2026-10-24",
+    "Guinness Stout": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Choza de Margarita": {
+   "lastSeen": {}
+  },
+  "epcot|La Hacienda de San Angel": {
+   "lastSeen": {
+    "La Hacienda Margarita": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Nine Dragons Restaurant": {
+   "lastSeen": {
+    "Lychee Martini": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Regal Eagle Smokehouse": {
+   "lastSeen": {}
+  },
+  "epcot|Takumi-Tei": {
+   "lastSeen": {}
+  },
+  "epcot|Le Cellier Steakhouse": {
+   "lastSeen": {
+    "La Fin du Monde": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "epcot|Space 220 Lounge": {
+   "lastSeen": {}
+  },
+  "hs|Oga's Cantina": {
+   "lastSeen": {
+    "Fuzzy Tauntaun": "2026-10-24",
+    "Jedi Mind Trick": "2026-10-24",
+    "Bespin Fizz": "2026-10-24",
+    "Yub Nub": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "hs|BaseLine Tap House": {
+   "lastSeen": {}
+  },
+  "hs|Woody's Lunch Box": {
+   "lastSeen": {}
+  },
+  "hs|Tune-In Lounge": {
+   "lastSeen": {
+    "Dad's Electric Lemonade": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "hs|Hollywood Brown Derby Lounge": {
+   "lastSeen": {
+    "Grapefruit Cake Martini": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "hs|Sci-Fi Dine-In Theater": {
+   "lastSeen": {
+    "Draft Beer": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "hs|Mama Melrose's Ristorante": {
+   "lastSeen": {}
+  },
+  "hs|Roundup Rodeo BBQ": {
+   "lastSeen": {}
+  },
+  "ak|Pongu Pongu": {
+   "lastSeen": {
+    "Night Blossom (with rum)": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ak|Nomad Lounge": {
+   "lastSeen": {
+    "Jenn's Tattoo": "2026-10-24",
+    "Lamu Libation": "2026-10-24",
+    "Tempting Tigress": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ak|Dawa Bar": {
+   "lastSeen": {
+    "Safari Amber": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ak|Thirsty River Bar": {
+   "lastSeen": {}
+  },
+  "ak|Yak & Yeti Restaurant": {
+   "lastSeen": {
+    "Yak Attack": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ak|Tusker House Restaurant": {
+   "lastSeen": {
+    "African Margarita": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ak|Flame Tree Barbecue": {
+   "lastSeen": {}
+  },
+  "ds|Jock Lindsey's Hangar Bar": {
+   "lastSeen": {
+    "Hovito Mojito": "2026-10-24",
+    "Cool-Headed Monkey": "2026-10-24",
+    "The Reggie's Revenge": "2026-10-24",
+    "Snakebite": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|Wine Bar George": {
+   "lastSeen": {}
+  },
+  "ds|Morimoto Asia Lounge": {
+   "lastSeen": {}
+  },
+  "ds|The Edison": {
+   "lastSeen": {}
+  },
+  "ds|Raglan Road": {
+   "lastSeen": {
+    "Guinness": "2026-10-24",
+    "Irish Coffee": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|STK Orlando": {
+   "lastSeen": {}
+  },
+  "ds|Splitsville": {
+   "lastSeen": {
+    "Strike Margarita": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|House of Blues": {
+   "lastSeen": {}
+  },
+  "ds|The BOATHOUSE": {
+   "lastSeen": {
+    "Coconut Mojito": "2026-10-24",
+    "Wine by the Glass": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|Enzo's Hideaway": {
+   "lastSeen": {
+    "Negroni": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|City Works Eatery & Pour House": {
+   "lastSeen": {}
+  },
+  "ds|Chef Art Smith's Homecomin'": {
+   "lastSeen": {
+    "Shine Punch": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|Frontera Cocina": {
+   "lastSeen": {
+    "Topolo Margarita": "2026-10-24",
+    "Mezcal Paloma": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "ds|Dockside Margaritas": {
+   "lastSeen": {}
+  },
+  "ds|Paddlefish": {
+   "lastSeen": {
+    "Crabby Bloody Mary": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "resorts|Trader Sam's Grog Grotto": {
+   "lastSeen": {
+    "Nautilus": "2026-10-24",
+    "Uh-Oa!": "2026-10-24",
+    "HippopotoMai-Tai": "2026-10-24",
+    "Krakatoa Punch": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "resorts|Enchanted Rose": {
+   "lastSeen": {}
+  },
+  "resorts|Territory Lounge": {
+   "lastSeen": {}
+  },
+  "resorts|Geyser Point Bar & Grill": {
+   "lastSeen": {}
+  },
+  "resorts|Three Bridges Bar & Grill": {
+   "lastSeen": {}
+  },
+  "resorts|Topolino's Terrace": {
+   "lastSeen": {}
+  },
+  "resorts|AbracadaBar": {
+   "lastSeen": {
+    "Magic Mirror": "2026-10-24"
+   },
+   "lastOk": "2026-10-24"
+  },
+  "resorts|Victoria Falls Lounge": {
+   "lastSeen": {}
+  }
+ }
 }
